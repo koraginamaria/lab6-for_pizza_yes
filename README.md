@@ -16,4 +16,5 @@
    ```bash
    docker build -t employee_action_classifier .
 
-   docker run --rm -v /путь/к/вашим/кадрам:/app/input_frames action-classifier /app/input_frames 
+   docker run --rm -v /путь/к/вашим/кадрам:/app/input_frames action-classifier /app/input_frames
+   (docker run --rm -v "%cd%\my_test_video:/app/my_test_video" employee_action_classifier /app/my_test_video)
