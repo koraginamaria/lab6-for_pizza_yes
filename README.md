@@ -15,3 +15,5 @@
 3. В корне проекта выполните команду сборки:
    ```bash
    docker build -t employee_action_classifier .
+
+   docker run --rm -v /путь/к/вашим/кадрам:/app/input_frames action-classifier /app/input_frames 
