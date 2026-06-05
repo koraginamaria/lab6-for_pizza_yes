@@ -1,6 +1,10 @@
 import os
 import sys
 import argparse
+
+import warnings 
+warnings.filterwarnings("ignore", category=UserWarning)
+
 from pathlib import Path
 import cv2
 import numpy as np
